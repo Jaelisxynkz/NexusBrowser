@@ -1,0 +1,80 @@
+{
+  "secret": "88f3a3f3b0dd6cb8ec06ba340288a987ddb464d1a994191f109bd754686b9138",
+  "accounts": {
+    "user@nexus.test": {
+      "id": "user@nexus.test",
+      "email": "user@nexus.test",
+      "displayName": "Test User",
+      "createdAt": 1788524722075,
+      "credentials": {
+        "salt": "ab7997911cc0c8541b7a5e938332e020",
+        "hash": "dcfd713d61fe6e6a73238963e12d9d7184b1b542caa90c3c883f42d3422df04ebf2882a537b4689ae5a25859c00f122347a6c1ea5272a6ace7ff4c2badcc987b"
+      },
+      "subscriptions": {
+        "sub_2b56052b74fe1e86": {
+          "id": "sub_2b56052b74fe1e86",
+          "planId": "premium",
+          "status": "active",
+          "createdAt": 1788524722205,
+          "currentPeriodEnd": 1791116722209,
+          "cancelAtPeriodEnd": false,
+          "payments": [
+            {
+              "at": 1788524722209,
+              "provider": "stripe",
+              "amountCents": 999
+            }
+          ],
+          "paymentMethodId": null,
+          "pastDueAt": null
+        }
+      },
+      "recovery": null,
+      "paymentMethods": [],
+      "defaultPaymentMethod": null
+    }
+  },
+  "sessions": {
+    "user@nexus.test|8f7e11a40432ec0055ed3bffc0f2ebec875cd711c7d7fb01|a9743a81fccd601b75561d68ec55b57f6b33d6ab1daa9cbcb0b9b400df1f29a6": {
+      "accountId": "user@nexus.test",
+      "createdAt": 1788524722078,
+      "expiresAt": null
+    },
+    "user@nexus.test|c1f335febb24d14f8ccaef984bf593a39f9aee51700361f2|9c1851a7b4fdc2add4a4c572f2461bcb51cdb3eab4f9e4ac8046fa5ae2e72437": {
+      "accountId": "user@nexus.test",
+      "createdAt": 1788524722460,
+      "expiresAt": null
+    }
+  },
+  "devices": {
+    "5a6742b8b0bedc22": {
+      "id": "5a6742b8b0bedc22",
+      "accountId": "user@nexus.test",
+      "name": "Desktop",
+      "platform": "win32",
+      "lastActive": 1788524722186,
+      "current": true
+    },
+    "e024cb423539a5d9": {
+      "id": "e024cb423539a5d9",
+      "accountId": "user@nexus.test",
+      "name": "This device",
+      "platform": "unknown",
+      "lastActive": 1788524722460,
+      "current": true
+    }
+  },
+  "cloud": {
+    "user@nexus.test:bookmarks": {
+      "payload": [
+        {
+          "title": "Nexus",
+          "url": "https://nexus"
+        }
+      ],
+      "updatedAt": 1788524722221,
+      "rev": 1
+    }
+  },
+  "events": []
+}
