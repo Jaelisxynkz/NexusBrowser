@@ -1,0 +1,16 @@
+
+  [32m[1mVITE[22m v8.2.2[39m  [2mready in [0m[1m2574[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m1:29:25 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m connected.
+[2m1:42:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:42:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:42:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:42:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:42:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:43:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusVPNPage.tsx[22m
+[2m1:43:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusVPNPage.tsx, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:43:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusVPNPage.tsx, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m1:55:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m1:58:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m2:00:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m

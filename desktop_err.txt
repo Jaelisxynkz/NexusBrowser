@@ -1,0 +1,3 @@
+(node:28512) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 51 closed listeners added to [BrowserWindow]. MaxListeners is 50. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+[28512:0903/022749.855:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost

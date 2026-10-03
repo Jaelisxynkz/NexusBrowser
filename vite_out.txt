@@ -1,0 +1,74 @@
+[33mThe plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the [1mresolve.tsconfigPaths[22m option. You can remove the plugin and set [1mresolve.tsconfigPaths: true[22m in your Vite config instead.[39m
+[2m2:17:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+
+  [32m[1mVITE[22m v8.2.2[39m  [2mready in [0m[1m3697[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m2:17:57 AM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m connected.
+[2m2:33:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m2:33:00 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/nexus/NexusPremiumPage.tsx:226:1 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m226 │[0m }
+ [38;5;240m    │[0m ┬  
+ [38;5;240m    │[0m ╰── 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/yassi/OneDrive/Documents/Visual Studio Projects/Nexus Browser/src/components/nexus/NexusPremiumPage.tsx[39m
+      at transformWithOxc (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:4103:19)
+      at TransformPluginContext.transform (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:4174:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:30932:51)
+      at async loadAndTransform (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m2:38:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m2:39:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m2:39:21 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `}` but found `EOF`
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/nexus/NexusPremiumPage.tsx:84:81 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m47 │[0m [38;5;249me[0m[38;5;249mx[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m [0m[38;5;249mN[0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249mP[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mi[0m[38;5;249mu[0m[38;5;249mm[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mg[0m[38;5;249me[0m[38;5;249m([0m[38;5;249m)[0m[38;5;249m [0m{
+ [38;5;240m   │[0m                                    ┬  
+ [38;5;240m   │[0m                                    ╰── Opened here
+ [38;5;240m   │[0m 
+ [38;5;246m84 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mE[0m[38;5;249mf[0m[38;5;249mf[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m([0m[38;5;249m([0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m=[0m[38;5;249m>[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mi[0m[38;5;249mf[0m[38;5;249m [0m[38;5;249m([0m[38;5;249mt[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m)[0m[38;5;249m [0m[38;5;249mv[0m[38;5;249mo[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249mh[0m[38;5;249mA[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249m([0m[38;5;249mt[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m)[0m[38;5;249m;[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249m[[0m[38;5;249mt[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249mh[0m[38;5;249mA[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249m][0m[38;5;249m)[0m[38;5;249m;[0m
+ [38;5;240m   │[0m                                                                                 │ 
+ [38;5;240m   │[0m                                                                                 ╰─ `}` expected
+[38;5;246m────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/yassi/OneDrive/Documents/Visual Studio Projects/Nexus Browser/src/components/nexus/NexusPremiumPage.tsx[39m
+[2m2:39:21 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `}` but found `EOF`
+    [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/nexus/NexusPremiumPage.tsx:84:81 [38;5;246m][0m
+    [38;5;246m│[0m
+ [38;5;246m47 │[0m [38;5;249me[0m[38;5;249mx[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mu[0m[38;5;249mn[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m [0m[38;5;249mN[0m[38;5;249me[0m[38;5;249mx[0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249mP[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mm[0m[38;5;249mi[0m[38;5;249mu[0m[38;5;249mm[0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mg[0m[38;5;249me[0m[38;5;249m([0m[38;5;249m)[0m[38;5;249m [0m{
+ [38;5;240m   │[0m                                    ┬  
+ [38;5;240m   │[0m                                    ╰── Opened here
+ [38;5;240m   │[0m 
+ [38;5;246m84 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mE[0m[38;5;249mf[0m[38;5;249mf[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m([0m[38;5;249m([0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m=[0m[38;5;249m>[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mi[0m[38;5;249mf[0m[38;5;249m [0m[38;5;249m([0m[38;5;249mt[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m)[0m[38;5;249m [0m[38;5;249mv[0m[38;5;249mo[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249mh[0m[38;5;249mA[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249m([0m[38;5;249mt[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m)[0m[38;5;249m;[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249m[[0m[38;5;249mt[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249mh[0m[38;5;249mA[0m[38;5;249ml[0m[38;5;249ml[0m[38;5;249m][0m[38;5;249m)[0m[38;5;249m;[0m
+ [38;5;240m   │[0m                                                                                 │ 
+ [38;5;240m   │[0m                                                                                 ╰─ `}` expected
+[38;5;246m────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/yassi/OneDrive/Documents/Visual Studio Projects/Nexus Browser/src/components/nexus/NexusPremiumPage.tsx[39m
+      at transformWithOxc (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:4103:19)
+      at TransformPluginContext.transform (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:4174:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:30932:51)
+      at async loadAndTransform (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:20671:26)
+      at async viteTransformMiddleware (file:///C:/Users/yassi/OneDrive/Documents/Visual%20Studio%20Projects/Nexus%20Browser/node_modules/vite/dist/node/chunks/node.js:25205:20)
+[2m2:40:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m2:42:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m2:46:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m2:47:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m3:00:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m3:00:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m3:03:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m3:15:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusShell.tsx[22m
+[2m3:42:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m
+[2m3:44:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/components/nexus/NexusPremiumPage.tsx[22m

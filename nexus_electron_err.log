@@ -1,0 +1,17 @@
+C:\Users\yassi\OneDrive\Documents\Visual Studio Projects\Nexus Browser\electron\main.cjs:5
+const gotLock = app.requestSingleInstanceLock();
+                    ^
+
+TypeError: Cannot read properties of undefined (reading 'requestSingleInstanceLock')
+    at Object.<anonymous> (C:\Users\yassi\OneDrive\Documents\Visual Studio Projects\Nexus Browser\electron\main.cjs:5:21)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:186:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.17.1
